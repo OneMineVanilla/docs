@@ -50,6 +50,14 @@ export default defineConfig({
     outline: {
       label: 'Содержание'
     },
+  
+    lastUpdated: {
+      text: 'Обновлено',
+      formatOptions: {
+        dateStyle: 'medium',
+        timeStyle: 'short'
+      }
+    },
 
     search: {
       provider: 'local',
