@@ -42,6 +42,11 @@ export default defineConfig({
       }
     ],
 
+    editLink: {
+      pattern: "https://github.com/onemineVanilla/docs/edit/master/files/:path",
+      text: 'Редактировать эту страницу'
+    },
+
     docFooter: {
       prev: 'Предыдущая страница',
       next: 'Следующая страница'
