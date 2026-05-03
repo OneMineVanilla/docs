@@ -18,7 +18,7 @@ export default defineConfig({
         text: '🔎 ИНФОРМАЦИЯ',
         items: [
           { text: 'Правила', link: 'rules'},
-          { text: 'Моды', link: 'mods'},
+          { text: 'Модификации', link: 'mods'},
           { text: 'Команды', link: 'commands'}
         ]
       },
@@ -86,7 +86,7 @@ export default defineConfig({
         link: "https://dsc.gg/onemine"
       },
       {
-        icon: 'fab fa-telegram-plane',
+        icon: 'telegram',
         link: 'https://t.me/onemine1'
       },
       { 
